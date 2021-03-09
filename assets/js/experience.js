@@ -4,25 +4,25 @@
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Research Intern",
+    cardImage: "assets/images/experience-page/iitdelhi-logo.png",
+    place: "HydroSense Lab, IIT Delhi",
+    time: "(Nov, 2020 - present)",
+    desp: "<li>Predicted he recovery times of flood all over the US.</li> <li>based on a large number of hydro-meteorological and catchment characteristics specifically derived for this study.</li> <li>Deploying Statistical (Machine Learning) model to map flood recovery times across US.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Summer Fellowship Research Programme-2020"
+    cardImage: "assets/images/experience-page/iitdelhi-logo.png",
+    place: "IIT Delhi" 
+    time: "(July - Sept, 2020)",
+    desp: "<li>developed an algorithm to observe the shape components of granular particles.</li><li>Used MATLAB for digital Image Processing to obtain complete geometry of the particle boundary, angularity and other shape parameters.</li><li>Implementation in field will save lot of time as compare to raditional methods.</li>",
   },
   {
     title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
+    cardImage: "assets/images/experience-page/IITBHU.png",
+    place: "IIT (BHU)",
     time: "(Dec, 19 - Jan, 20)",
-    desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    desp:"<li>Stress-strain curve analysis of cold-worked deformed bars – IS 456:2000.</li><li>Stress Sensitivity analysis of Steel Silo: STAAD.Pro. </li><li>Economical design study of Flanged and Rectangular Beams</li>",
   },
 ];
 
