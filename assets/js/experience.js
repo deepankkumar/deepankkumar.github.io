@@ -12,7 +12,7 @@ const exp = [
   },
   {
     title: "Summer Fellowship Research Programme-2020",
-    cardImage: "assets/images/experience-page/iitdelhi-logo.png",
+    cardImage: "assets/images/experience-page/iit-delhi-g.jpg",
     place: "IIT Delhi" ,
     time: "(July - Sept, 2020)",
     desp: "<li>developed an algorithm to observe the shape components of granular particles.</li><li>Used MATLAB for digital Image Processing to obtain complete geometry of the particle boundary, angularity and other shape parameters.</li><li>Implementation in field will save lot of time as compare to raditional methods.</li>",
