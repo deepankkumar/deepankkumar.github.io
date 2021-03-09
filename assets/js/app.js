@@ -20,6 +20,20 @@ let header = $(`
    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
    <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+   <li>
+          <label for="switch-1" class="theme-switch">
+            <input class="toggle-checkbox" type="checkbox" id="switch-1" name="theme" />
+            <div class='toggle-slot'>
+              <div class='sun-icon-wrapper'>
+                <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"> </div>
+              </div>
+              <div class='toggle-button-1 toggle-button'></div>
+              <div class='moon-icon-wrapper'>
+                <div class="iconify moon-icon" data-icon="feather-moon" data-inline="false"> </div>
+              </div>
+            </div>
+          </label>
+        </li>
    <div class="bike">
    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 0 650 400" preserveAspectRatio="xMinYMin meet"> 
      <rect/>
