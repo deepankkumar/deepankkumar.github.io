@@ -58,8 +58,6 @@ document.addEventListener("DOMContentLoaded", showCards2);
 
 
 // Volunteership Cards
-
-const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
     title: "GirlScript Summer Of Code 2020",
@@ -103,8 +101,6 @@ const volunteershipcards = [
 
 // Mentorship Card
 
-
-const mentorshipcards = document.querySelector(".mentorship-cards");
 const mentor = [
   {
     title: "HakinCode",
