@@ -5,59 +5,45 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
+    title: "Neural Networks and Deep Learning",
+    cardImage: "assets/images/education-page/deeplearning.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/U2G5L882WUX8",
+  },
+  
+  {
+    title: "Machine Learning – Andrew Ng",
     cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/LSP8JWCHUX8P",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    title: "Improving Deep Neural Networks",
+    cardImage: "assets/images/education-page/deeplearning.png",
+    moocLink: "coursera.org/account/accomplishments/certificate/XUDXHKPPH2FX",
   },
   {
-    title: "Machine Learning",
+    title: "SQL for Data Science",
     cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/5PHBFR26KGAB",
   },
   {
-    title: "Introduction to HTML 5",
+    title: "Convolution Neural Networks",
+    cardImage: "assets/images/education-page/deeplearning.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/9ZRHJML5YTDD",
+  },
+  {
+    title: "Algorithm Toolbox",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/PFHZ2MNV7N4X",
+  },
+  {
+    title: "Programming for Everybody",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/XYASM27GMPNQ",
+  },
+  {
+    title: "Android Nano-degree",
     cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
-  },
-  {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
-  },
-  {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/EdX.png",
-    moocLink: "https://www.edx.org/learn/reactjs",
-  },
-  {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
-  },
-  {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
-  },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
+    moocLink: "https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801",
   },
   {
     title: "Data Structures & Algorithms",
@@ -176,32 +162,13 @@ document.addEventListener("DOMContentLoaded", showCards1);
 const timeline = document.querySelector(".timeline");
 const timelinesection = [
   {
-    heading: "Massachusetts Institute of Technology",
+    heading: "Malaviya National Institute of Technology, Jaipur",
     image: "./assets/images/education-page/timeline-1.svg",
-    subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
-    description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
+    subheading: "Bachelors of Technology, Civil Engineering, (2017-2021)",
+    description: "<li>Top 10% in the department</li><li>Best undergraduate Reseracher</li>",
   },
 
-  {
-    heading: "Massachusetts Institute of Technology",
-    image: "./assets/images/education-page/timeline-1.svg",
-    subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
-    description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
-  },
-
-  {
-    heading: "Massachusetts Institute of Technology",
-    image: "./assets/images/education-page/timeline-1.svg",
-    subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
-    description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
-  },
-
-  {
-    heading: "Massachusetts Institute of Technology",
-    image: "./assets/images/education-page/timeline-1.svg",
-    subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
-    description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
-  },
+  
 ];
 
 const showCards2 = () => {
