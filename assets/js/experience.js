@@ -99,24 +99,6 @@ const volunteershipcards = [
   },
 ];
 
-const showCards = () => {
-  let output = "";
-  volunteershipcards.forEach(
-    ({ title, cardImage, description }) =>
-      (output += `        
-      <div class="card volunteerCard" style="height: 600px;width:400px">
-      
-      <img src="${cardImage}" height="300" width="65" class="card-img" style="border-radius:10px">
-      <div class="content">
-          <h2 class="volunteerTitle">${title}</h2><br>
-          <p class="copy">${description}</p></div>
-      
-      </div>
-      `)
-  );
-  volunteership.innerHTML = output;
-};
-document.addEventListener("DOMContentLoaded", showCards);
 
 
 // Mentorship Card
@@ -137,30 +119,3 @@ const mentor = [
     desp: "<li>Google Summer of Code is a global program focused on introducing students to open source software development.</li><hr /><li>It is a great platform to explore new areas, maybe discover a new career path!</li>",
   },
 ];
-
-const showCards3 = () => {
-  let output = "";
-  mentor.forEach(
-    ({ title, image, time, desp}) =>
-      (output += `        
-      <div class="column mentorshipCard"> 
-      <div class="card card2 mentorshipCardCover">
-        <img src="${image}" class="card-img-top" alt="..."  width="64" height="300">
-        <div class="information">
-        <div class="card-body">
-          <h5 class="card-title">${title}</h5>
-          <p class=""sub-title">${time}</p>
-        </div>
-        <div class="more-information">
-        <ul class="list-group list-group-flush p-0 right-aligned">
-          <div class="list-group-item card2 disclaimer">${desp}</div>
-        </ul>
-        </div>
-        </div>
-      </div>
-      </div>
-      `)
-  );
-  mentorshipcards.innerHTML = output;
-};
-document.addEventListener("DOMContentLoaded", showCards3);
