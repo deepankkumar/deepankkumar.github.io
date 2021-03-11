@@ -6,7 +6,7 @@ const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
     title: "Neural Networks and Deep Learning",
-    cardImage: "assets/images/education-page/coursera1.png",
+    cardImage: "assets/images/education-page/deepai.png",
     moocLink: "https://www.coursera.org/account/accomplishments/certificate/U2G5L882WUX8",
   },
   
@@ -17,7 +17,7 @@ const moocscards = [
   },
   {
     title: "Improving Deep Neural Networks",
-    cardImage: "assets/images/education-page/coursera1.png",
+    cardImage: "assets/images/education-page/deepai.png",
     moocLink: "coursera.org/account/accomplishments/certificate/XUDXHKPPH2FX",
   },
   {
@@ -27,7 +27,7 @@ const moocscards = [
   },
   {
     title: "Convolution Neural Networks",
-    cardImage: "assets/images/education-page/coursera1.png",
+    cardImage: "assets/images/education-page/deepai.png",
     moocLink: "https://www.coursera.org/account/accomplishments/certificate/9ZRHJML5YTDD",
   },
   {
