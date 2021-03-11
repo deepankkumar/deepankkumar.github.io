@@ -16,10 +16,10 @@ const tagImages = {
 // Array of object for projects
 const projects = [
   {
-    title: "Quiz App",
+    title: "A machine learning approach to expedite the FEM Analysis",
     cardImage: "assets/images/project-page/quiz.jpg",
-    description: "A quiz app built using basic react.",
-    tags: ["React.js", "Python", "Tensorflow"],
+    description: "Prediction of Stress and deflection for a given model and load.",
+    tags: ["FEM", "Python", "Tensorflow", "Ansys"],
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "",
     Githublink: "",
